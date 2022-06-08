@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+h1 {
+    font-size: 9rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header {
+    background-color: #790e29;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 40px;
+    font-size: 1.2rem;
+    
+}
+
+
+header h1 {
+    color: #34a054;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: #bc1dec;
+    padding: 60px;
+    font-family: fantasy;
+}
+
+.grid-container {
+    display: grid;
+    margin: 40px 0 40px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1px 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
+        "noticiaDos noticiaDos noticiaTres noticiaCuatro"
+        "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro";
+}
+
+.bannerUno {
+    grid-area: bannerUno;
+    background-color: #9edbff;
+    color: #110c0d;
+}
+
+.noticiaTres {
+    grid-area: noticiaTres;
+    background-color: #328075;
+}
+
+.noticiaDos {
+    grid-area: noticiaDos;
+    background-color: #89FFFB;
+}
+
+.noticiaCuatro {
+    grid-area: noticiaCuatro;
+    background-color: #41E2DD;
+}
+
+.noticiaCinco {
+    grid-area: noticiaCinco;
+    background-color: #50D8C8;
+}
+
+.noticiaSeis {
+    grid-area: noticiaSeis;
+    background-color: #53B4F4;
+}
+
+.noticiaSiete {
+    grid-area: noticiaSiete;
+    background-color: #CDE0E4;
+}
+
+footer {
+    background-color: #4ca8eb;
+    width: 100%;
+    height: 100px;
+    padding: 30px 0 0 0;
+  
+    
+}
+
+footer h5 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+   
+}
+main h1{
+    color: #30c98e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: inherit;
+}
+h2{
+    text-decoration: solid;
+    color: #34a054;
+}
+table{
+    border: 15px solid;
+    margin: 190px;
+    padding: 85px;
+    border-color: rgb(139, 25, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: rgb(20, 151, 53);
+    background-color: beige;
+}
